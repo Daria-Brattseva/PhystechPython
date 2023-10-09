@@ -21,13 +21,13 @@ class DNA(object):
         trans = ''
         for i in range(len(self.dna)):
             if self.dna[i] == 'A':
-                tranc += 'A' 
+                trans += 'A' 
             if self.dna[i] == 'T':
-                tranc += 'U'
+                trans += 'U'
             if self.dna[i] == 'C':
-                tranc += 'C'
+                trans += 'C'
             if self.dna[i] == 'G':
-                tranc += 'G'
+                trans += 'G'
         return trans
     def complement_dna(self) -> str:
         compl = ''
@@ -56,5 +56,7 @@ class DNA(object):
 
 string = input()
 dna = DNA(string)
-dna.hamming_distance(input())
+print(dna.count_nucleotides())
+print(dna.transcribe())
+print(dna.complement_dna())
 print(dna.hamming_distance(input()))
