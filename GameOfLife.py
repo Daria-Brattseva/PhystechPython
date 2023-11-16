@@ -8,7 +8,7 @@ window = pg.display.set_mode((width, height))
 finished = False
 clock = pg.time.Clock()
 c_height, c_width = 20, 20 # Высота и ширина клеток
-GREEN = (0, 255, 0)
+GREEN = (0, 255, 255)
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 
