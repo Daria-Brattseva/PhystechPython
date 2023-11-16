@@ -2,7 +2,7 @@ import pygame as pg
 import random
 
 pg.init()
-fps = 100 #Количество кадров в секунду
+fps = 30 #Количество кадров в секунду
 width, height = 1000, 1000 # Высота и ширина поля
 window = pg.display.set_mode((width, height))
 finished = False
